@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./static/main.css">
+</head>
+
+<body>
+    <div id="product-container">
+    </div>
+
+    <script src="./static/main.js">
+    </script>
+
+    <div id="box" onclick="changeColor()">Click me to change color</div>
+    <button id="output" class="button" onclick="changeText()">CLICKKK MEEEEE!!!!!!!</button>
+    <div id="hover-box" onmouseover="changeHover()" onmouseout="resetHover()">Hover over me</div>  
+
+    <hr>
+    
+    <form id="contact-form" action="POST" onsubmit="handleSubmit(event)">
+        <input id="name" type="text" name="name" placeholder="Name">
+        <input id="email" type="email" name="email" placeholder="Email">
+        <input id="message" type="text" name="message" placeholder="Message">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
